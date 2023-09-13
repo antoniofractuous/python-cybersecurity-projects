@@ -8,4 +8,4 @@
 
 - ##### Expected output:
 
-![output](./output.png)
+![output](./output2.png)
