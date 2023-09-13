@@ -6,6 +6,6 @@
 
 `python3.9 password-generator.py`
 
-- ##### Expected output:
+- #### Expected output:
 
 ![output](./output7.png)
