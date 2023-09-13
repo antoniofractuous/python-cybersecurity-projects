@@ -1,4 +1,4 @@
-- #### To run locally
+- ##### To run locally
 
 `git clone https://github.com/antoniofractuous/python-cybersecurity-projects.git`
 
@@ -6,6 +6,6 @@
 
 `python3.9 password-generator.py`
 
-- #### Expected output:
+- ##### Expected output:
 
 ![output](./output7.png)
