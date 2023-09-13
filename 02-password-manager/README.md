@@ -2,9 +2,9 @@
 
 `git clone https://github.com/antoniofractuous/python-cybersecurity-projects.git`
 
-`cd python-cybersecurity-projects/01-password-generator/`
+`cd python-cybersecurity-projects/02-password-manager/`
 
-`python3.9 password-generator.py`
+`python3.9 password-manager.py`
 
 - ##### Expected output:
 
