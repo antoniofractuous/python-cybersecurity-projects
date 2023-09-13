@@ -1,11 +1,11 @@
-- #### To run locally
+- ##### To run locally
 
-##### `git clone https://github.com/antoniofractuous/python-cybersecurity-projects.git`
+`git clone https://github.com/antoniofractuous/python-cybersecurity-projects.git`
 
-##### `cd python-cybersecurity-projects/01-password-generator/`
+`cd python-cybersecurity-projects/01-password-generator/`
 
-##### `python3.9 password-generator.py`
+`python3.9 password-generator.py`
 
-- Expected output:
+- ##### Expected output:
 
 ![output](./output2.png)
