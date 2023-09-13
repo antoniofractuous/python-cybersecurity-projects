@@ -1,4 +1,4 @@
-- To run locally go to your shell interpreter (terminal) and run the following commands:
+- #### To run locally
 
 ##### `git clone https://github.com/antoniofractuous/python-cybersecurity-projects.git`
 
