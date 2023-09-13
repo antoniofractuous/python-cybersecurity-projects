@@ -1,5 +1,11 @@
-## You can find the source code of a password generator program above
+- To run locally go to your shell interpreter (terminal) and run the following commands:
 
-- output of password generator
+### `git clone https://github.com/antoniofractuous/python-cybersecurity-projects.git`
+
+### `cd python-cybersecurity-projects/01-password-generator/`
+
+### `python3.9 password-generator.py`
+
+- Expected output:
 
 ![output](./output.png)
