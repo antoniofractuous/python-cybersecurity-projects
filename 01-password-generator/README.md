@@ -4,7 +4,7 @@
 
 `cd python-cybersecurity-projects/01-password-generator/`
 
-`python3.9 password-generator.py`
+`python3 password-generator.py`
 
 - ##### Expected output:
 
