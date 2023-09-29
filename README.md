@@ -5,7 +5,7 @@
  - *This is a collection of Cybersecurity related Python Projects.*
  - *This repository is aimed towards professionals and hobbyist who want to improve their Python coding skills.*
 
-#### To run clone reoistory and run locally
+#### To run clone repository and run locally
 
 `git clone https://github.com/antoniofractuous/python-cybersecurity-projects.git`
 
