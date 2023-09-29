@@ -4,7 +4,7 @@
 
 `cd python-cybersecurity-projects/02-password-manager/`
 
-`python3.9 password-manager.py`
+`python3 password-manager.py`
 
 - ##### Expected output:
 
