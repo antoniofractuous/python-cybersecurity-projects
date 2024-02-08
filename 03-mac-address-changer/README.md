@@ -1,3 +1,3 @@
 ## Output of MAC changer:
 
-![output](./output-terminal.png)
+![output](./terminal-output.png)
