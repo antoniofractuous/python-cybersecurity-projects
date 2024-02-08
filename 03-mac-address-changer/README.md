@@ -1,3 +1,3 @@
 ## Output of MAC changer:
 
-![output](./terminal-output.png)
+![output](./terminal-output-kali.png)
