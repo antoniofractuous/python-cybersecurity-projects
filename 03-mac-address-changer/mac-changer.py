@@ -5,7 +5,7 @@ import re
 def change_mac(interface, new_mac):
     print(f"[+] Changing MAC address: {interface} to {new_mac}")
     subprocess.call(['sudo', 'ifconfig', interface, 'down'])
-    subprocess.call(['sudo', 'ifconfig', interface, 'ether', new_mac])
+    subprocess.call(['sudo', 'ifconfig', interface, 'hw', 'ether', new_mac])
     subprocess.call(['sudo', 'ifconfig', interface, 'up'])
 
 def get_arguments():
