@@ -5,7 +5,7 @@ import re
 def change_mac(interface, new_mac):
     print(f"[+] Changing MAC address: {interface} to {new_mac}")
     subprocess.call(['sudo', 'ifconfig', interface, 'down'])
-    subprocess.call(['sudo', 'ifconfig', interface, 'hw', 'ether', new_mac])
+    subprocess.call(['sudo', 'ifconfig', interface, 'ether', new_mac])
     subprocess.call(['sudo', 'ifconfig', interface, 'up'])
 
 def get_arguments():
@@ -32,10 +32,9 @@ mac_regex = get_mac(options.interface)
 print("Current MAC address = ", str(mac_regex))
 
 change_mac(options.interface, options.new_mac)
-
 new_mac_regex = get_mac(options.interface)
 
-if new_mac_regex == options.new_mac:
+if new_mac_regex == options.new_mac: 
     print(f"[+] MAC address successfully changed to {mac_regex}")
 else:
     print("[-] Could not change MAC address, type --help for more info")
