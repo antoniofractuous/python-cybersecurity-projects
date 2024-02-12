@@ -35,6 +35,6 @@ change_mac(options.interface, options.mac_new)
 retrieve_mac_two = get_mac(options.interface)
 
 if retrieve_mac_two == options.mac_new:
-    print(f"MAC address successfully changed to {options.mac_new}")
+    print(f"MAC address successfully changed to {retrieve_mac_two}")
 else:
     print('MAC address could not be changed, please type --help for more info')
