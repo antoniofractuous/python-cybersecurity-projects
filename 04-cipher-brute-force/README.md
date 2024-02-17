@@ -1,3 +1,3 @@
-### Cipher Brute Force Output:
+## Cipher Brute Force Output:
 
 ![output](./cipher-brute-force.png)
