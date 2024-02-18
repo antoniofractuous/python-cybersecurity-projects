@@ -1,3 +1,3 @@
 ### Password Generator Output:
 
-![output](./output7.png)
+![output](./password-generator-output.png)
