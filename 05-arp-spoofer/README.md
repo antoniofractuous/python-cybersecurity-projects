@@ -1,3 +1,3 @@
 ### ARP Spoofer Output:
 
-![output](./arp-spoofer-kali.png)
+![output](./arp-spoofer-linux.png)
