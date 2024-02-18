@@ -4,8 +4,9 @@ import time
 
 def get_arguments():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-t", "--target", dest="target", help="Target IP to spoof")
-    parser.add_argument("-g", "--gateway", dest="gateway", help="Gateway IP to spoof")
+    parser.add_argument("-t", dest="target", help="Target IP to spoof")
+    parser.add_argument("-g", dest="gateway", help="Gateway IP to spoof")
+    
     options = parser.parse_args()
     if not options.target:
         parser.error("[-] Please specify a target IP, use --help for more info.")
@@ -47,9 +48,3 @@ except KeyboardInterrupt:
     restore(options.target, options.gateway)
     restore(options.gateway, options.target)
     print("[-] ARP tables have been restored, quitting....\n ")
-
-
-
-
-
-
