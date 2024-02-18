@@ -1,11 +1,3 @@
-- ##### To run locally
+- ### Expected Output:
 
-`git clone https://github.com/antoniofractuous/python-cybersecurity-projects.git`
-
-`cd python-cybersecurity-projects/02-password-manager/`
-
-`python3 password-manager.py`
-
-- ##### Expected output:
-
-![output](./output.png)
+![output](./password-manager.png)
