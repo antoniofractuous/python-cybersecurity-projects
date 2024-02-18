@@ -1,3 +1,3 @@
 ## Output of Network Scanner:
 
-![output](./network-scanner.png)
+![output](./network-scanner-kali.png)
