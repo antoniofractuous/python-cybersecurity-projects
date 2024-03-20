@@ -1,3 +1,3 @@
 ## Port Knocking Output:
 
-![output](./port-knocking.png)
+![output](./port-knocking-output.png)
